@@ -34,7 +34,7 @@ body {
     }
 
 
-   .container .image {
+    .container .image {
         width: 235px;
         height: 130px;
         display: flex;
@@ -45,15 +45,10 @@ body {
         height: 130px;
     }
 
-    
+
 
 
 }
-
-
-
-
-/* dando uma altura e largura para a div da imagem, colocando um espaçamento interior de 10px, alinhando ela na horizontal e na vertical */
 .image {
     width: 350px;
     height: 200px;
@@ -63,13 +58,11 @@ body {
     justify-content: center;
 }
 
-/* mexeno na imagem em si, dando uma largura de 350px e uma altura de 200px e arredondando a borda da imagem*/
 .image img {
     width: 350px;
     height: 200px;
     border-radius: 20px;
 }
-
 
 
 button {
@@ -91,7 +84,7 @@ button:hover {
 }
 
 
-.user{
+.user {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -100,13 +93,13 @@ button:hover {
     width: 100%;
 }
 
-.user img{
+.user img {
     height: 50px;
     width: 50px;
     margin-right: 18px;
 }
 
-.user p{
+.user p {
     font-weight: 600;
 }
 
@@ -118,6 +111,6 @@ footer {
     height: 70px;
 }
 
-footer a{
+footer a {
     color: aliceblue;
 }
