@@ -62,6 +62,7 @@ body {
     width: 350px;
     height: 200px;
     border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(43, 43, 43, 0.307);
 }
 
 
@@ -83,6 +84,9 @@ button:hover {
     color: rgb(230, 230, 230);
 }
 
+.container .publi{
+    margin: 5px;
+}
 
 .user {
     display: flex;
@@ -93,9 +97,17 @@ button:hover {
     width: 100%;
 }
 
+.text-area h3{
+    margin: 5px;
+}
+
+.text-area p{
+    margin: 2px;
+}
+
 .user img {
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     margin-right: 18px;
 }
 
